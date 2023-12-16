@@ -25,12 +25,12 @@ const Cards = ({
         </Card.Body>
         <ListGroup variant="flush">
           <ListGroup.Item>
-            <span>👍</span>
-            {like_count} <span> 👀</span>
+          👍
+            {like_count}  👀
             {view_count}
           </ListGroup.Item>
           <ListGroup.Item className="text-primary">
-            #<span>{index + 1}</span> 觀看數： <span>{view_count}</span>
+            #{index + 1} 觀看數： {view_count}
           </ListGroup.Item>
         </ListGroup>
       </Card>
